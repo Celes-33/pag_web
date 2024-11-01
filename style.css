@@ -1,0 +1,31 @@
+body {
+    font-family: Times 'Times New Roman', Times, serif Roman,  serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color:  #7da9e286; /* El color del fondo de la página web */
+    color: #000000; /* El color del texto*/ 
+}
+h1 {
+    color: #000000; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+button{
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #2b80e2;
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: rgb(255, 255, 255);
+    }
+  
+    100% {
+      color: blue;
+    }
+}
